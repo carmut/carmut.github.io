@@ -1,0 +1,15 @@
+p a{
+    text-decoration: underline;
+}
+
+.projets{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.projets h3{
+    font-size: 2em;
+}
