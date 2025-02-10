@@ -54,3 +54,17 @@ body{
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
+html , body{
+    height: 100%;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+}
