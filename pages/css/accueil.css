@@ -1,4 +1,11 @@
-h2, .presentation{
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.presentation p{
     text-align: center;
 }
 
@@ -15,4 +22,19 @@ h2, .presentation{
 .img_container{
     display: flex;
     justify-content: center;
+}
+
+/** text menu **/
+
+.actif + p{
+    display: block;
+}
+
+.inactif + p{
+    display: none;
+}
+
+.menu{
+    text-decoration: underline;
+    font-size: 2.5em;
 }
