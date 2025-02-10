@@ -1,11 +1,18 @@
-h1{
+h2, .presentation{
     text-align: center;
-    font-size: 3em;
-    color: #333;
-    margin-top: 20px;
 }
 
-.placeholder_text{
-    text-align: center;
-    
+/** picture **/
+.Portefolio_picture{
+    border-radius: 30% / 50%;
+    width: 200px;
+}
+.Portefolio_picture:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
 }
