@@ -32,16 +32,13 @@ nav{
         display: inline;
         margin-right: 10px;
     }
-
     footer p{
         text-align: center;
     }
-
     footer ul{
         display: flex;
         justify-content: space-evenly;
     }
-
     footer{
         background-color: #7b7b7b;
         padding: 10px;
@@ -67,4 +64,22 @@ html , body{
 
 .content{
     flex: 1;
+}
+
+/** contenue de base **/
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.placeholder_text{
+    text-align: center; 
+}
+
+/** changement btn nav actual **/
+.actual{
+    pointer-events: none;
+    color: pink
 }
